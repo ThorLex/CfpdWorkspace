@@ -17,7 +17,7 @@ export default function Home() {
           donner une dimension humaine à sa pédagogie.
         </p>
       </div>
-      <div className="grid  grid-cols-2 xl:grid-cols-3 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {ImageLinks.map((link) => (
           <div key={link.label}>
             <div className="relative cursor-pointer">
