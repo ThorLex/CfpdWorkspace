@@ -6,16 +6,18 @@
   .rediused {
     display: none;
   }
-
-  .maximised {
-    display: none;
-  }
 }
 @media (max-width: 637px) {
   .centerreduised {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .rediusedd {
+    display: none;
   }
 }
 
@@ -33,7 +35,7 @@ footer {
   width: 30rem;
 }
 .title {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
   line-height: 2rem;
 }

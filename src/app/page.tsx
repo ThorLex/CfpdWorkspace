@@ -93,7 +93,7 @@ export default function Footer() {
         </div>
       </div>
       {/*  cas responsive taille inferieur Link 768px apparution voir styleFooter.css dans les medias*/}{" "}
-      <div className=" text-white py-1">
+      <div className="   rediusedd text-white py-1">
         <div className="container mx-auto px-4 text-center">
           <hr className="my-3" />
           <div className="mb-3">
@@ -160,6 +160,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <span className="  rediused flex justify-center items-center text-center h-full  text-sm mt-5">
+        <br /> <br />
+        CFPD-ISGD © 2024 . All Rights Reserved.
+      </span>
     </footer>
   );
 }
