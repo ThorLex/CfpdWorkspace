@@ -28,10 +28,11 @@ export default function Home() {
                 {link.label}
               </h2>
               <div className="">
-                <ImageCard
+                <Image
                   src={link.imgURL}
                   alt={link.label}
-                  text={link.label}
+                  width={343}
+                  height={191}
                   className="mb-[90px]"
                 />
               </div>
