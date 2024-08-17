@@ -1,0 +1,49 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/footer/styleFooter.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&display=swap");
+:root {
+  --backgound: rgb(0, 0, 0);
+  --allscreenheight: 100vh;
+  --allscreenwidth: 100vw;
+}
+@media (max-width: 768px) {
+  .rediused {
+    display: none;
+  }
+}
+@media (max-width: 639px) {
+  .centerreduised {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gerer {
+  }
+}
+
+@media (min-width: 768px) {
+  .rediusedd {
+    display: none;
+  }
+}
+
+footer {
+  background-color: var(--backgound);
+}
+.left {
+  top: 16px;
+  left: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+.wh {
+  height: 17rem;
+  width: 30rem;
+}
+.title {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
